@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Apr  9 19:45:55 2024
+# Process ID: 15756
+# Current directory: C:/Users/Benjamin/Desktop/Yale-NUS-Hardware-design/oled/oled.srcs/utils_1/imports/synth_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29740 C:\Users\Benjamin\Desktop\Yale-NUS-Hardware-design\oled\oled.srcs\utils_1\imports\synth_1\screen.dcp
+# Log file: C:/Users/Benjamin/Desktop/Yale-NUS-Hardware-design/oled/oled.srcs/utils_1/imports/synth_1/vivado.log
+# Journal file: C:/Users/Benjamin/Desktop/Yale-NUS-Hardware-design/oled/oled.srcs/utils_1/imports/synth_1\vivado.jou
+# Running On: DESKTOP-C3LLOOU, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 16886 MB
+#-----------------------------------------------------------
+start_gui
+open_checkpoint C:/Users/Benjamin/Desktop/Yale-NUS-Hardware-design/oled/oled.srcs/utils_1/imports/synth_1/screen.dcp

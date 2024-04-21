@@ -1,0 +1,61 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../oled.gen/sources_1/bd/oled_design",
+      "name": "oled_design",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.2"
+    },
+    "design_tree": {
+      "screen_0": ""
+    },
+    "components": {
+      "screen_0": {
+        "vlnv": "xilinx.com:module_ref:screen:1.0",
+        "xci_name": "oled_design_screen_0_1",
+        "xci_path": "ip\\oled_design_screen_0_1\\oled_design_screen_0_1.xci",
+        "inst_hier_path": "screen_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "screen",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "cs": {
+            "direction": "O"
+          },
+          "mosi": {
+            "direction": "O"
+          },
+          "nc": {
+            "direction": "O"
+          },
+          "sck": {
+            "direction": "O"
+          },
+          "dc": {
+            "direction": "O"
+          },
+          "res": {
+            "direction": "O"
+          },
+          "vccen": {
+            "direction": "O"
+          },
+          "pmoden": {
+            "direction": "O"
+          },
+          "btn0": {
+            "direction": "I"
+          },
+          "led0": {
+            "direction": "O"
+          }
+        }
+      }
+    }
+  }
+}

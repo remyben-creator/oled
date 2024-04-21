@@ -1,0 +1,188 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xD861C7A4BDFAE798",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../oled.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "screen_0": ""
+    },
+    "ports": {
+      "sysclk": {
+        "direction": "I"
+      },
+      "btn0": {
+        "direction": "I"
+      },
+      "led0": {
+        "direction": "O"
+      },
+      "led1": {
+        "direction": "O"
+      },
+      "jb7": {
+        "direction": "O"
+      },
+      "jb6": {
+        "direction": "O"
+      },
+      "jb5": {
+        "direction": "O"
+      },
+      "jb4": {
+        "direction": "O"
+      },
+      "jb3": {
+        "direction": "O"
+      },
+      "jb2": {
+        "direction": "O"
+      },
+      "jb1": {
+        "direction": "O"
+      },
+      "jb0": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "screen_0": {
+        "vlnv": "xilinx.com:module_ref:screen:1.0",
+        "xci_name": "design_1_screen_0_0",
+        "xci_path": "ip\\design_1_screen_0_0\\design_1_screen_0_0.xci",
+        "inst_hier_path": "screen_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "screen",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "cs": {
+            "direction": "O"
+          },
+          "mosi": {
+            "direction": "O"
+          },
+          "nc": {
+            "direction": "O"
+          },
+          "sck": {
+            "direction": "O"
+          },
+          "dc": {
+            "direction": "O"
+          },
+          "res": {
+            "direction": "O"
+          },
+          "vccen": {
+            "direction": "O"
+          },
+          "pmoden": {
+            "direction": "O"
+          },
+          "led0": {
+            "direction": "O"
+          },
+          "led1": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "btn0_1": {
+        "ports": [
+          "btn0",
+          "screen_0/reset"
+        ]
+      },
+      "screen_0_cs": {
+        "ports": [
+          "screen_0/cs",
+          "jb0"
+        ]
+      },
+      "screen_0_dc": {
+        "ports": [
+          "screen_0/dc",
+          "jb4"
+        ]
+      },
+      "screen_0_led0": {
+        "ports": [
+          "screen_0/led0",
+          "led0"
+        ]
+      },
+      "screen_0_led1": {
+        "ports": [
+          "screen_0/led1",
+          "led1"
+        ]
+      },
+      "screen_0_mosi": {
+        "ports": [
+          "screen_0/mosi",
+          "jb1"
+        ]
+      },
+      "screen_0_nc": {
+        "ports": [
+          "screen_0/nc",
+          "jb2"
+        ]
+      },
+      "screen_0_pmoden": {
+        "ports": [
+          "screen_0/pmoden",
+          "jb7"
+        ]
+      },
+      "screen_0_res": {
+        "ports": [
+          "screen_0/res",
+          "jb5"
+        ]
+      },
+      "screen_0_sck": {
+        "ports": [
+          "screen_0/sck",
+          "jb3"
+        ]
+      },
+      "screen_0_vccen": {
+        "ports": [
+          "screen_0/vccen",
+          "jb6"
+        ]
+      },
+      "sysclk_1": {
+        "ports": [
+          "sysclk",
+          "screen_0/clk"
+        ]
+      }
+    }
+  }
+}
